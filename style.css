@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    background: radial-gradient(#FFD7C7, #806B63);
+    height: 100vh;
+  }
+  
+  h1 {
+    color: #f5f5f5;
+    font-size: 30px;
+  }
+  
+  section {
+    display: block;
+    max-width: 350px;
+    border: 5px solid #444;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 52px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #666;
+  }
+  
+  button {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 18px;
+    width: 70px;
+    height: 50px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .buttons {
+    margin: 25px 0px 15px 5px;
+  }
+  
+  .num, .dot {
+    background-color: #333;
+    color: white;
+  }
+  .num:hover, .dot:hover {
+    background-color: #222;
+  }
+  
+  .operators {
+    background-color: lightsalmon;
+  }
+  .operators:hover {
+    background-color: #FF8E61;
+  }
+  
+  .calculate {
+    background-color: #FFFD94;
+  }
+  .calculate:hover {
+    background-color: #FFFD7A;
+  }
+  
+  .backspace, .clear, .nothing {
+    background-color: lightgray;
+  }
+  .backspace:hover, .clear:hover {
+    background-color: #c0c0c0;
+  }
+  
+  .nothing {
+    cursor: auto;
+  }
+  
+  .display {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+    height: 1.5em;
+    border: groove;
+    margin: 0px 23px 10px 23px;
+    background-color: #f5f5f5;
+    text-align: right;
+    padding-right: 15px;
+  }
